@@ -8,14 +8,17 @@
 ### Key Programming Takeaway
 
 ```java
+//java
 int[] freq = new int[128];
 freq['A']++; // index 65
 ```
 ```python
+# Python
 freq = [0] * 128
 freq[ord('A')] += 1  # index 65
 ```
 ```javascript
+// Javascript
 const freq = new Array(128).fill(0);
 freq['A'.charCodeAt(0)]++; // index 65
 ```
